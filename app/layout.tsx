@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     default: 'Flow Copilot',
     template: `%s - Flow Copilot`
   },
-  description: 'An AI-powered chatbot template built with Next.js and Vercel.',
+  description: 'An AI-powered chatbot built to help Flow Developers with the Developement flow made with Next.js , kapa.ai and Vercel.',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' }
