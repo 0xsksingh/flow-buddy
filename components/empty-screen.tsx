@@ -28,10 +28,10 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
         </h1>
         <p className="mb-2 leading-normal text-muted-foreground">
           Flow-Copilot is an open-source AI chatbot application developed using
-          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{' '}
+          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> {' '}
           <ExternalLink href="https://vercel.com/storage/kv">
             Vercel KV
-          </ExternalLink>
+          </ExternalLink> and {' '}
           <ExternalLink href="http://kapa.ai/">
             Kapa.ai
           </ExternalLink>
