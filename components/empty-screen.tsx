@@ -6,16 +6,16 @@ import { IconArrowRight } from '@/components/ui/icons'
 
 const exampleMessages = [
   {
-    heading: 'Explain technical concepts',
-    message: `What is a "serverless function"?`
+    heading: 'Create a Non-Fungible Token on Flow',
+    message: `How to create a Non-Fungible Token on Flow"?`
   },
   {
-    heading: 'Summarize an article',
-    message: 'Summarize the following article for a 2nd grader: \n'
+    heading: 'How to get started on Flow ?',
+    message: 'How to get started on Flow ? \n'
   },
   {
-    heading: 'Draft an email',
-    message: `Draft an email to my boss about the following: \n`
+    heading: 'How to build a game on Flow ? ',
+    message: `How to use Flow Unity SDK to build a game ? \n`
   }
 ]
 
@@ -24,13 +24,16 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
     <div className="mx-auto max-w-2xl px-4">
       <div className="rounded-lg border bg-background p-8">
         <h1 className="mb-2 text-lg font-semibold">
-          Welcome to Next.js AI Chatbot!
+          Welcome to Flow-Copilot!
         </h1>
         <p className="mb-2 leading-normal text-muted-foreground">
-          This is an open source AI chatbot app template built with{' '}
+          Flow-Copilot is an open-source AI chatbot application developed using
           <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{' '}
           <ExternalLink href="https://vercel.com/storage/kv">
             Vercel KV
+          </ExternalLink>
+          <ExternalLink href="http://kapa.ai/">
+            Kapa.ai
           </ExternalLink>
           .
         </p>
