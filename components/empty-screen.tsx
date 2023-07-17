@@ -7,7 +7,7 @@ import { IconArrowRight } from '@/components/ui/icons'
 const exampleMessages = [
   {
     heading: 'Create a Non-Fungible Token on Flow',
-    message: `How to create a Non-Fungible Token on Flow"?`
+    message: `How to create a Non-Fungible Token on Flow ?`
   },
   {
     heading: 'How to get started on Flow ?',
@@ -21,10 +21,10 @@ const exampleMessages = [
 
 export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
   return (
-    <div className="mx-auto max-w-2xl px-4 bg-lime-400">
+    <div className="mx-auto max-w-2xl px-4 ">
       <div className="rounded-lg border bg-background p-8">
         <h1 className="mb-2 text-lg font-semibold">
-          Welcome to Flow-Buddy!
+          🧑🏻‍💻Welcome to Flow-Buddy 😺!
         </h1>
         <p className="mb-2 leading-normal text-muted-foreground">
           Flow-Buddy is an open-source AI chatbot application developed using

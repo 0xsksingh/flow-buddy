@@ -12,7 +12,7 @@ export function FooterText({ className, ...props }: React.ComponentProps<'p'>) {
       )}
       {...props}
     >
-      Special AI chatbot built for {' '}
+      Special AI companion built for {' '}
       <ExternalLink href="https://flow.com/">Flow</ExternalLink> {' '}
       <ExternalLink href="https://developers.flow.com/">
         Developers

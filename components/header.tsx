@@ -11,14 +11,15 @@ import {
   IconGitHub,
   IconNextChat,
   IconSeparator,
-  IconVercel,
   IconOpenAI
-} from '@/components/ui/icons'
+} from '@/components/ui/icons';
+import flow from "@/public/flow.png";
 import { SidebarFooter } from '@/components/sidebar-footer'
 import { ThemeToggle } from '@/components/theme-toggle'
 import { ClearHistory } from '@/components/clear-history'
 import { UserMenu } from '@/components/user-menu'
 import { LoginButton } from '@/components/login-button'
+import Image from 'next/image';
 
 export async function Header() {
   const session = await auth()
@@ -38,8 +39,10 @@ export async function Header() {
           </Sidebar>
         ) : (
           <Link href="/" target="_blank" rel="nofollow">
-            <IconNextChat className="w-6 h-6 mr-2 dark:hidden" inverted />
-            <IconNextChat className="hidden w-6 h-6 mr-2 dark:block" />
+            {/* <IconOpenAI className="w-6 h-6 mr-2 dark:hidden" inverted />
+            <IconOpenAI className="hidden w-6 h-6 mr-2 dark:block" /> */}
+            <Image src={flow} className="w-6 h-6 mr-2 dark:hidden" alt="flow logo" />
+            <Image src={flow} className="w-12 h-12 mr-2 dark:block" alt="flow logo" />
           </Link>
         )}
         <div className="flex items-center">
@@ -68,7 +71,6 @@ export async function Header() {
           target="_blank"
           className={cn(buttonVariants())}
         >
-          <IconOpenAI className="mr-2" />
           <span>Flow Buddy</span>
         </a>
       </div>
