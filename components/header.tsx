@@ -56,7 +56,7 @@ export async function Header() {
       <div className="flex items-center justify-end space-x-2">
         <a
           target="_blank"
-          href="https://github.com/kamaleth/flow-copilot"
+          href="https://github.com/kamaleth/flow-buddy"
           rel="noopener noreferrer"
           className={cn(buttonVariants({ variant: 'outline' }))}
         >
@@ -69,7 +69,7 @@ export async function Header() {
           className={cn(buttonVariants())}
         >
           <IconOpenAI className="mr-2" />
-          <span>Flow Copilot</span>
+          <span>Flow Buddy</span>
         </a>
       </div>
     </header>

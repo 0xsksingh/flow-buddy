@@ -11,8 +11,8 @@ import { Header } from '@/components/header'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Flow Copilot',
-    template: `%s - Flow Copilot`
+    default: 'Flow Buddy',
+    template: `%s - Flow Buddy`
   },
   description: 'An AI-powered chatbot built to help Flow Developers with the Developement flow made with Next.js , kapa.ai and Vercel.',
   themeColor: [
