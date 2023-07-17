@@ -1,4 +1,4 @@
-# FlowBuddy: Developer Chatbot for Flow
+# FlowBuddy: Developer Companion for Flow
 
 ![image](https://github.com/kamaleth/flow-buddy/assets/129384571/551502a0-28da-487a-883c-ec678df02904)
 
