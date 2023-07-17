@@ -11,7 +11,8 @@ import {
   IconGitHub,
   IconNextChat,
   IconSeparator,
-  IconVercel
+  IconVercel,
+  IconOpenAI
 } from '@/components/ui/icons'
 import { SidebarFooter } from '@/components/sidebar-footer'
 import { ThemeToggle } from '@/components/theme-toggle'
@@ -67,7 +68,7 @@ export async function Header() {
           target="_blank"
           className={cn(buttonVariants())}
         >
-          <IconVercel className="mr-2" />
+          <IconOpenAI className="mr-2" />
           <span>Flow Copilot</span>
         </a>
       </div>
